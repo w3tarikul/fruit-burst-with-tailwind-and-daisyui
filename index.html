@@ -14,27 +14,6 @@
             .team-section {
                 background-color: rgba(0, 0, 0, 0.3);
             }
-
-            /* Add the countdown animation */
-            @keyframes countdownAnimation {
-                from {
-                    width: 100%;
-                }
-                to {
-                    width: 0;
-                }
-            }
-
-            /* Style the countdown elements */
-            .countdown {
-                overflow: hidden;
-            }
-
-            .countdown span {
-                --value: 0;
-                display: inline-block;
-                animation: countdownAnimation var(--value, 0) s linear infinite;
-            }
         </style>
         <!-- Lato Google Font  -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -154,8 +133,15 @@
             <!-- Carousel section  -->
             <section class="my-5">
                 <div class="carousel w-full">
-                    <div id="slide1" class="carousel-item relative w-full">
-                        <img src="./images/banner1.png" class="w-full" />
+                    <div
+                        id="slide1"
+                        class="carousel-item relative w-full h-48 lg:h-auto items-center justify-center"
+                    >
+                        <img
+                            src="./images/banner1.png"
+                            class="w-full"
+                            alt="Banner"
+                        />
                         <div
                             class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
                         >
@@ -164,10 +150,10 @@
                         </div>
                         <!-- Custom Content for Slide 1 -->
                         <div
-                            class="carousel-content absolute top-[25%] left-[25%] flex flex-col justify-center items-center text-white"
+                            class="carousel-content absolute flex flex-col justify-center items-center text-white"
                         >
                             <h1
-                                class="text-7xl text-center text-white font-bold mb-2"
+                                class="h-[20px] text-2xl md:text-4xl lg:text-7xl text-center text-white font-bold mb-2"
                             >
                                 Exotic tastes at your <br />
                                 doorstep
@@ -177,13 +163,20 @@
                             </p>
                             <a
                                 href="#"
-                                class="btn bg-[#F85559] border-0 text-white text-xl font-bold"
+                                class="btn bg-[#F85559] border-0 text-white text-[12px] px-3 py-3 md:text-xl font-bold"
                                 >Shop Now</a
                             >
                         </div>
                     </div>
-                    <div id="slide2" class="carousel-item relative w-full">
-                        <img src="./images/banner2.png" class="w-full" />
+                    <div
+                        id="slide2"
+                        class="carousel-item relative w-full h-48 lg:h-auto items-center justify-center"
+                    >
+                        <img
+                            src="./images/banner2.png"
+                            class="w-full"
+                            alt="Banner"
+                        />
                         <div
                             class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
                         >
@@ -193,10 +186,10 @@
 
                         <!-- Custom Content for Slide 2 -->
                         <div
-                            class="carousel-content absolute top-[25%] left-[25%] flex flex-col justify-center items-center text-white"
+                            class="carousel-content absolute flex flex-col justify-center items-center text-white"
                         >
                             <h1
-                                class="text-7xl text-center text-white font-bold mb-2"
+                                class="h-[20px] text-2xl md:text-4xl lg:text-7xl text-center text-white font-bold mb-2"
                             >
                                 Exotic tastes at your <br />
                                 doorstep
@@ -206,13 +199,20 @@
                             </p>
                             <a
                                 href="#"
-                                class="btn bg-[#F85559] border-0 text-white text-xl font-bold"
+                                class="btn bg-[#F85559] border-0 text-white text-sm lg:text-xl font-bold"
                                 >Shop Now</a
                             >
                         </div>
                     </div>
-                    <div id="slide3" class="carousel-item relative w-full">
-                        <img src="./images/banner3.png" class="w-full" />
+                    <div
+                        id="slide3"
+                        class="carousel-item relative w-full h-48 lg:h-auto items-center justify-center"
+                    >
+                        <img
+                            src="./images/banner3.png"
+                            class="w-full"
+                            alt="Banner"
+                        />
                         <div
                             class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
                         >
@@ -222,10 +222,10 @@
 
                         <!-- Custom Content for Slide 3 -->
                         <div
-                            class="carousel-content absolute top-[25%] left-[25%] flex flex-col justify-center items-center text-white"
+                            class="carousel-content absolute flex flex-col justify-center items-center text-white"
                         >
                             <h1
-                                class="text-7xl text-center text-white font-bold mb-2"
+                                class="h-[20px] text-2xl md:text-4xl lg:text-7xl text-center text-white font-bold mb-2 leading-7"
                             >
                                 Exotic tastes at your <br />
                                 doorstep
@@ -235,13 +235,20 @@
                             </p>
                             <a
                                 href="#"
-                                class="btn bg-[#F85559] border-0 text-white text-xl font-bold"
+                                class="btn bg-[#F85559] border-0 text-white text-sm lg:text-xl font-bold"
                                 >Shop Now</a
                             >
                         </div>
                     </div>
-                    <div id="slide4" class="carousel-item relative w-full">
-                        <img src="./images/banner4.png" class="w-full" />
+                    <div
+                        id="slide4"
+                        class="carousel-item relative w-full h-48 lg:h-auto items-center justify-center"
+                    >
+                        <img
+                            src="./images/banner4.png"
+                            class="w-full"
+                            alt="Banner"
+                        />
                         <div
                             class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
                         >
@@ -251,10 +258,10 @@
 
                         <!-- Custom Content for Slide 4 -->
                         <div
-                            class="carousel-content absolute top-[25%] left-[25%] flex flex-col justify-center items-center text-white"
+                            class="carousel-content absolute flex flex-col justify-center items-center text-white"
                         >
                             <h1
-                                class="text-7xl text-center text-white font-bold mb-2"
+                                class="h-[20px] text-2xl md:text-4xl lg:text-7xl text-center text-white font-bold mb-2"
                             >
                                 Exotic tastes at your <br />
                                 doorstep
@@ -264,9 +271,56 @@
                             </p>
                             <a
                                 href="#"
-                                class="btn bg-[#F85559] border-0 text-white text-xl font-bold"
+                                class="btn bg-[#F85559] border-0 text-white text-sm lg:text-xl font-bold"
                                 >Shop Now</a
                             >
+                        </div>
+                    </div>
+                </div>
+                <!-- Fruit Box  -->
+                <div
+                    class="flex justify-center -mt-16 relative z-20 hidden lg:block text-center"
+                >
+                    <div
+                        class="stats stats-vertical lg:stats-horizontal shadow"
+                    >
+                        <div class="stat">
+                            <div class="stat-title">
+                                <img src="./images/fruit1.png" alt="Grape" />
+                            </div>
+                            <p class="stat-desc text-center">Grape</p>
+                        </div>
+
+                        <div class="stat">
+                            <div class="stat-title">
+                                <img src="./images/fruit2.png" alt="Orange" />
+                            </div>
+                            <p class="stat-desc text-center">Orange</p>
+                        </div>
+
+                        <div class="stat">
+                            <div class="stat-title">
+                                <img src="./images/fruit3.png" alt="Mango" />
+                            </div>
+                            <p class="stat-desc text-center">Mango</p>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-title">
+                                <img
+                                    src="./images/fruit4.png"
+                                    alt="Strawberry"
+                                />
+                            </div>
+                            <p class="stat-desc text-center">Strawberry</p>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-title">
+                                <img
+                                    src="./images/fruit5.png"
+                                    alt="Pomegranate"
+                                />
+                            </div>
+                            <p class="stat-desc text-center">Pomegranate</p>
                         </div>
                     </div>
                 </div>
@@ -332,7 +386,7 @@
                         <figure class="px-10 pt-10">
                             <img
                                 src="./images/fruit6.png"
-                                alt="Shoes"
+                                alt="Apples]"
                                 class="rounded-xl"
                             />
                         </figure>
@@ -382,7 +436,7 @@
                                     <figure class="">
                                         <img
                                             src="./images/fruit6.png"
-                                            alt="Shoes"
+                                            alt="Orange"
                                             class="rounded-xl"
                                         />
                                     </figure>
@@ -451,7 +505,7 @@
                         <figure class="px-10 pt-10">
                             <img
                                 src="./images/fruit7.png"
-                                alt="Shoes"
+                                alt="Dragon"
                                 class="rounded-xl"
                             />
                         </figure>
@@ -501,7 +555,7 @@
                                     <figure class="">
                                         <img
                                             src="./images/fruit7.png"
-                                            alt="Shoes"
+                                            alt="Banana"
                                             class="rounded-xl"
                                         />
                                     </figure>
@@ -570,7 +624,7 @@
                         <figure class="px-10 pt-10">
                             <img
                                 src="./images/fruit8.png"
-                                alt="Shoes"
+                                alt="Red Dragon"
                                 class="rounded-xl"
                             />
                         </figure>
@@ -621,7 +675,7 @@
                                     <figure class="">
                                         <img
                                             src="./images/fruit8.png"
-                                            alt="Shoes"
+                                            alt="Dragon"
                                             class="rounded-xl"
                                         />
                                     </figure>
@@ -690,7 +744,7 @@
                         <figure class="px-10 pt-10">
                             <img
                                 src="./images/fruit9.png"
-                                alt="Shoes"
+                                alt="Banana"
                                 class="rounded-xl"
                             />
                         </figure>
@@ -741,7 +795,7 @@
                                     <figure class="">
                                         <img
                                             src="./images/fruit9.png"
-                                            alt="Shoes"
+                                            alt="Banana"
                                             class="rounded-xl"
                                         />
                                     </figure>
@@ -838,7 +892,7 @@
                                     >
                                         <img
                                             src="./images/member1.png"
-                                            alt="Team Member 1"
+                                            alt="Awlad Hossain"
                                             class="object-cover w-full h-full"
                                         />
                                     </div>
@@ -881,7 +935,7 @@
                                     >
                                         <img
                                             src="./images/member2.png"
-                                            alt="Team Member 1"
+                                            alt="Safia Chowdhury"
                                             class="object-cover w-full h-full"
                                         />
                                     </div>
@@ -924,7 +978,7 @@
                                     >
                                         <img
                                             src="./images/member3.png"
-                                            alt="Team Member 1"
+                                            alt="Rokib Hossain"
                                             class="object-cover w-full h-full"
                                         />
                                     </div>
@@ -967,7 +1021,7 @@
                                     >
                                         <img
                                             src="./images/member4.png"
-                                            alt="Team Member 1"
+                                            alt="Chaity"
                                             class="object-cover w-full h-full"
                                         />
                                     </div>
@@ -1002,6 +1056,20 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </section>
+            <!-- Why Choose Us Section  -->
+            <section class="my-10">
+                <div class="title-p text-center">
+                    <h2 class="text-[#121212] text-5xl font-bold">
+                        Why Choose Us
+                    </h2>
+                    <p class="text-[#12121299] leading-7 my-5">
+                        Contrary to popular belief, is not simply random text.
+                        It has roots in a piece of classical <br />
+                        Latin literature from 45 BC, making it over 2000 years
+                        old.
+                    </p>
                 </div>
             </section>
         </main>
@@ -1078,5 +1146,7 @@
                 </div>
             </div>
         </footer>
+
+        <!-- Preee Carosule  -->
     </body>
 </html>
